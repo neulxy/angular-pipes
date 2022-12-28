@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { ShortenPipe } from './shorten.pipe';
 import { FilterPipe } from './filter.pipe';
 import { RevsersePipe } from './revserse.pipe';
+import { SortPipe } from './sort.pipe';
 
 @NgModule({
-  declarations: [AppComponent, ShortenPipe, FilterPipe, RevsersePipe],
+  declarations: [AppComponent, ShortenPipe, FilterPipe, RevsersePipe, SortPipe],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
